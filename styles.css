@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #f3f6f9, #e8edf2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Main Container */
+.container {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* Top Badge */
+.top-badge {
+  background: #f9fbff;
+  padding: 12px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #0a3a66;
+  border: 2px solid #0a3a66;
+  margin-bottom: 25px;
+}
+
+/* Profile Image */
+.profile-img {
+  margin-bottom: 20px;
+}
+
+.profile-img img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #0a3a66;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+h1 span {
+  color: #1a7f2b;
+}
+
+/* Subtitle */
+h2 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* Description */
+.description {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: #25D366;
+  color: #fff;
+  padding: 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+  transition: all 0.3s ease;
+}
+
+/* WhatsApp Icon */
+.whatsapp-btn img {
+  width: 28px;
+  height: 28px;
+}
+
+/* Hover Effect */
+.whatsapp-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(37, 211, 102, 0.6);
+}
+
+/* Footer */
+.footer {
+  margin-top: 35px;
+  font-size: 13px;
+  color: #666;
+}
+
+.footer p {
+  margin-bottom: 6px;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .container {
+    padding: 25px 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+}
